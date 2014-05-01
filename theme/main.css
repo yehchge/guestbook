@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	position: relative;
+	height: 100%;
+	margin: 0;
+	background: url('images/bg.png') center repeat-y #CCC;
+}
+
+#container {
+	position: relative;
+	width: 580px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background: #393;
+}
+
+#header h1 {
+	position: relative;
+	margin: auto;
+	color: #FFF;
+	text-align: center;
+	line-height: 80px;
+}
+
+#functions {
+  float: right;
+  width: 100px;
+  margin-left: -100px;
+  margin-bottom: 10px;
+}
+
+#content {
+  float: right;
+  width: 480px;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+
+#footer {
+	clear: both;
+	position: relative;
+	height: 40px;
+	background-color: #393;
+}
+
+#footer p {
+	text-align: center;
+    font-size: 0.8em;
+	line-height: 40px;
+	color: #FFF;
+	font-weight: bolder;
+}
+
+.messageBlock, #edit {
+	position: relative;
+	width: 448px;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px dotted #CCC;
+}
+
+.messageBlock h2, #edit h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #CFC;
+}
+
+.messageBlockFunctions, .editBlockFunctions {
+	margin-top: 10px;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+#edit p {
+	margin: 5px auto;
+}
+
+#functions ul {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	list-style: none;
+}
+
+#functions ul li {
+	padding: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #0342C1;
+}
+
+#login-form p {
+    clear: both;
+}
+
+#login-form label {
+    margin-right: 2px;
+}
+
+#login-form input.text {
+    width: 40px;
+    font-size: 9pt;
+    line-height: 12pt;
+}
+
